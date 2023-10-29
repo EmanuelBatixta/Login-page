@@ -14,22 +14,28 @@
         </nav>
     </header>
     <main class="back">
-  
-        <div class="login-block">
-            <h1>LOGIN</h1>
-            <form action="#" method="post">
-                <span class="material-symbols-outlined">
-                    person    <input type="text" name="name" id="name" placeholder="Email ou usuário" required>
-                </span>
-                <span class="material-symbols-outlined">
-                    key  <input type="password" name="password" id="password" placeholder="Senha" minlength="8" required>
-                </span>    
-                <a href="#">Esqueceu a senha?</a>
-                
-            </form>
-            <div class="botoes">
-                <button>LOGIN</button>
-                <button>INSCREVA-SE</button>
+        <div class="forms">
+            <span class="trocar-form"></span>
+            <div class="login-block">
+                <h1>LOGIN</h1>
+                <form action="#" method="post">
+                    <label class="input-label" for="name">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span> <input type="text" name="name" id="name" placeholder="Email ou usuário" required>
+                    </label>
+                    <label class="input-label" for="password">
+                        <span class="material-symbols-outlined">
+                            key
+                        </span>  <input type="password" name="password" id="password" placeholder="Senha" required>
+                    </label>
+                    <a href="#">Esqueceu a senha?</a>
+            
+                </form>
+                <div class="botoes">
+                    <button>LOGIN</button>
+                    <!-- <button>INSCREVA-SE</button> -->
+                </div>
             </div>
         </div>
     </main>
