@@ -15,7 +15,8 @@
     </header>
     <main class="back">
         <div class="forms">
-            <span class="trocar-form"></span>
+            <label class="switch" for="chek"><p>ENTRAR</p> <input type="checkbox" id="chek"><p>CADASTRE-SE</p></label>
+               
             <div class="login-block">
                 <h1>LOGIN</h1>
                 <form action="#" method="post">
@@ -29,14 +30,36 @@
                             key
                         </span>  <input type="password" name="password" id="password" placeholder="Senha" required>
                     </label>
-                    <a href="#">Esqueceu a senha?</a>
-            
+                    <a href="#">Esqueceu a senha?</a>            
                 </form>
                 <div class="botoes">
                     <button>LOGIN</button>
-                    <!-- <button>INSCREVA-SE</button> -->
                 </div>
             </div>
+            <div class="login-block">
+                <h1>CADASTRE-SE</h1>
+                <form action="#" method="post">
+                    <label class="input-label" for="name">
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span> <input type="text" name="name" id="name" placeholder="Email" required>
+                    </label>
+                    <label class="input-label" for="name">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span> <input type="text" name="name" id="name" placeholder="Nome" required>
+                    </label>
+                    <label class="input-label" for="password">
+                        <span class="material-symbols-outlined">
+                            key
+                        </span>  <input type="password" name="password" id="password" placeholder="Senha" required>
+                    </label>
+                </form>
+                <div class="botoes">
+                    <button>CADASTRE-SE</button>
+                </div>
+            </div>
+
         </div>
     </main>
     <footer>
