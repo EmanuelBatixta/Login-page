@@ -102,13 +102,9 @@ input:focus-visible{
     margin-top: 50%;
 }
 
-button > a{
-    text-decoration: none;
-    color: var(--colordestaque);
-}
-
-button > a:hover{
-    color: var(--colorbase);
+a > button{
+    height: 25px;
+    width: 100%;
 }
 
 /* CRIA O METODO DE ENTRADA */
